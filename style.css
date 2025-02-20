@@ -1,0 +1,68 @@
+.Card{
+	width:80vw;
+	height:auto;
+	background-color:lightgrey;
+	border:2px solid white;
+	border-radius:9px;
+	flex-direction:column;
+	justify-content:center;
+	transition:transform 0.3s ease;
+	margin:auto;
+}
+
+.card:hover{
+	transform:scale(1.02)
+}
+.Profile-Image img{
+	height:200px;
+	border:2px solid black;
+	border-radius:200%;
+	justify-self:center;
+	margin-left:40%;
+	margin-top:10%;
+	border:3px solid blue;
+}
+#fullName{
+	color:blue;
+	font-family:couries;
+	align-items:center;
+	padding-left:10px;
+	justify-self:center;
+}
+#jobTitle{
+	color:green;
+	font-family:varenda;
+	text-align:center;
+	padding-top:10px;
+}
+.text{
+	font-size:20px;
+	text-align:center;
+	padding-top:10px;
+	justify-self:center;
+	padding-left:20px;
+}
+ 
+.text{
+	font-size:20px;
+}
+#links{
+	display:flex;
+	padding:12px;
+	justify-self:center;
+
+}
+#time{
+	color:green;
+	font-weight:600;
+	text-align:center;
+}
+p{
+	text-align:center;
+}
+#links a{
+	text-align:center;
+	text-decoration: none;
+	color:black;
+	padding: 20px;
+}
